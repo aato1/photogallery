@@ -90,7 +90,6 @@ main p {
 }
 figure {
     position: relative;
-    display: block;
     margin: 0 auto;
 }
 figcaption {
@@ -109,6 +108,12 @@ figcaption {
     bottom: 20px;
     z-index: 1;
 }
+#gallery div {
+    position: relative;
+    margin: 0 auto;
+}
+
+
 #survey h2 {
     padding-block-start: 0.83em;
     margin-block: 0 0.83em;
@@ -200,9 +205,6 @@ nav li:last-of-type {
     }
     form input[type="submit"] {
         width: 350px;
-    }
-    figure div {
-        position: relative;
     }
 }
 @media screen and (min-width: 1300px) {
